@@ -5,7 +5,7 @@ import { Card } from "@aws-amplify/ui-react";
 import { generateRecipe } from "./actions";
 
 
-export default function Home() {
+export default function Page() {
   const [result, setResult] = useState<string>("");
   const [loading, setloading] = useState(false);
 

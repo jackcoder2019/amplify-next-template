@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Meet Your Personal Recipe AI",
 };
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;
